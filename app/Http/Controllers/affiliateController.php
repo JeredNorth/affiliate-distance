@@ -24,7 +24,7 @@ class affiliateController extends Controller {
 		$lat = 53.3340285; //Starting latitude
 		$lon = -6.2535495; //Starting longitude
 		$distance = 100; //Distance in KM
-		$R = 6371; //constant earth radius. You can add precision here if you wish
+		$R = 6371; //constant earth radius.
 		
 		$maxLat = $lat + rad2deg($distance/$R); //54.233350105919
 		$minLat = $lat - rad2deg($distance/$R); //52.434706894081
